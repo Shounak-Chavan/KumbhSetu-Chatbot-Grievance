@@ -1,0 +1,41 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.pkl
+*.db
+*.sqlite
+*.sqlite3
+
+# Virtual environments
+.venv/
+.env
+.env.*
+!.env.example
+*.env
+.envrc
+venv/
+
+# Secrets and local credentials
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+*.secret
+*.secrets
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# Local RAG artifacts
+rag/*.pkl
+chroma/
+chromadb/
+qdrant_storage/
+
+# Scraped source dataset (copyright/licensing risk for public repo)
+dataset/kumbh_rag_dataset/
