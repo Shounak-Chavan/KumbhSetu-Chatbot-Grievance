@@ -9,6 +9,11 @@ wheels/
 *.db
 *.sqlite
 *.sqlite3
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
 # Virtual environments
 .venv/
@@ -30,12 +35,21 @@ secrets/
 
 # Notebook artifacts
 .ipynb_checkpoints/
+notebooks/*.pkl
 
 # Local RAG artifacts
 rag/*.pkl
+app/rag/*.pkl
 chroma/
 chromadb/
 qdrant_storage/
 
+# IDE/editor
+.vscode/
+.idea/
+
 # Scraped source dataset (copyright/licensing risk for public repo)
 dataset/kumbh_rag_dataset/
+
+# Alembic
+alembic/versions/*.pyc

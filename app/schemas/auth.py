@@ -1,7 +1,7 @@
-from pydantic import BaseModel,EmailStr
+from pydantic import BaseModel, EmailStr
 
 class UserRegister(BaseModel):
-    name:str
+    name: str
     email: EmailStr
     password: str
 
@@ -18,8 +18,11 @@ class UserLogin(BaseModel):
     email: EmailStr
     password: str
 
-class TokenResponse(BaseModel):
+class AccessTokenResponse(BaseModel):
     access_token: str
     token_type: str = "bearer"
 
-
+class TokenResponse(BaseModel):
+    access_token: str
+    refresh_token: str
+    token_type: str = "bearer"

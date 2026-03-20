@@ -9,54 +9,7 @@ import time
 # Define the data sources for each category
 data_sources = {
  
-    "core_info": [
-        "https://justnashik.com/2025/06/22/simhastha-kumbh-mela-2027-in-nashik-a-complete-guide-to-dates-rituals-travel-tips/",
-        "https://en.wikipedia.org/wiki/Nashik-Trimbakeshwar_Simhastha",
-        "https://en.wikipedia.org/wiki/2015_Nashik-Trimbakeshwar_Simhastha",
-        "https://mahakumbh.in/simhastha-kumbh",
-        "https://mahakumbh.in/nashik-kumbh-mela-2027",
-        "https://grokipedia.com/page/Nashik-Trimbakeshwar_Simhastha",
-        "https://kumbhmela.org.in/how-nashik-became-a-kumbh-location",
-    ],
- 
-    "temples": [
-        "https://nashik.gov.in/en/tourist-place/ramkund-nashik/",
-        "https://nashik.gov.in/en/tourist-place/trimbakeshwar-temple/",
-        "https://en.wikipedia.org/wiki/Trimbakeshwar_Temple",
-        "https://maharashtratourism.gov.in/temple/trimbakeshwar/",
-        "https://templecitynashik.com/ramkund-nashik-shriram-ganga-godavari-ghat/",
-        "https://www.incredibleindia.gov.in/en/maharashtra/nashik/panchvati",
-    ],
- 
-    "spiritual": [
-        "https://nashikkumbhmela.org/",
-        "https://nashikkumbhmela.org/13-akhadas-of-simhastha-kumbh/",
-        "https://nashikkumbhmela.org/yatra-guide/",
-        "https://www.tourmyindia.com/kumbhmela/nasik-kumbh.html",
-        "https://nashik.gov.in/en/tourism/culture-heritage/",
-    ],
- 
-    "infrastructure": [
-        "https://devgatha.in/en/nashik/2027-nashik-kumbh-mela-preparation-plan-by-cm-devendra-fadnavis/",
-        "https://thebetterindia.com/34869/kumb-mela-arrangements-in-nashik/",
-    ],
- 
-    "transport": [
-        "https://www.travelandtourworld.com/news/article/complete-guide-to-nashik-kumbh-mela-2027-verified-travel-routes-accommodation-and-safety-tips/",
-        "https://en.wikipedia.org/wiki/Nasik_Road_railway_station",
-        "https://en.wikipedia.org/wiki/Ozar_Airport",
-    ],
- 
-    "emergency": [
-        "https://justnashik.com/helpline/",
-        "https://nashik.gov.in/en/public-utilities/hospitals/",
-        "https://nashik.gov.in/en/helpline-3/",
-    ],
- 
-    "accommodation": [
-        "https://urbanchats.com/ultimate-guide-to-kumbh-mela-nashik/",
-        "https://blog.yatradham.org/book-your-stay-for-kumbh-mela/",
-    ],
+    """ Paste you links here"""
 }
 
 # Define headers to mimic a browser visit

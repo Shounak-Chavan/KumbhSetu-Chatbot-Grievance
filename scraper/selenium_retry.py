@@ -1,5 +1,5 @@
 """
-Selenium Retry — nashikkumbhmela.org/yatra-guide/
+Selenium Retry — Your retry URL here
 Saves to: ../dataset/kumbh_rag_dataset/spiritual/
 """
 
@@ -12,7 +12,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # CONFIG
 
-url      = "https://nashikkumbhmela.org/yatra-guide/"
+url      = " Your retry URL here "
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 save_dir = os.path.normpath(
     os.path.join(BASE_DIR, "..", "dataset", "kumbh_rag_dataset", "spiritual")

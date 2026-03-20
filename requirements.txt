@@ -79,3 +79,4 @@ email-validator
 pdfplumber
 python-multipart
 
+alembic
