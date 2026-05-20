@@ -53,3 +53,16 @@ dataset/kumbh_rag_dataset/
 
 # Alembic
 alembic/versions/*.pyc
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# GitHub Actions / CI/CD
+.github/workflows/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~

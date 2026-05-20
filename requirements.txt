@@ -80,3 +80,6 @@ pdfplumber
 python-multipart
 
 alembic
+
+# Testing
+pytest-asyncio
